@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+nav.main{
+    background-color: gray;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+div.main{
+    display: flex;
+    justify-content: space-around;
+}
+div.left{
+    /* display: flex; */
+    flex-basis: 60%;
+    /* flex-direction: column;
+    justify-content: space-between; */
+}
+div.right{
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    row-gap: 5px;
+}
+div.top{
+    display: flex;
+    justify-content: space-between;
+}
+/* div.top .icon{
+    font-weight: bold;
+} */
+div.tab{
+    display: inline-flex;
+    /* justify-content: space-between; */
+    column-gap: 5px;
+}
+div.tab .gray{
+    background-color: #ddd;
+    width: 80px;
+}
+div.first{
+    background-color: #555;
+    width: 80px;
+}
+div.tab div{
+/* margin-right: 3px; */
+}
+div.footer-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+div.banner{
+    height: 200px;
+    background-color: #555;
+}
+div.main .left .items-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+div.main .left .items-list .item{
+    flex-basis: 18%;
+    /* margin-right: 10px; */
+    /* display: inline-flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.items-list .item div.img{
+    height: 100px;
+    width: 150px;
+    background-color: rgb(153, 151, 151);
+}
+.items-list .item h3{
+    height: 12px;
+    width: 100%;
+    background-color:#ddd ;
+}
+.items-list .item div.detail{
+    display: flex;
+    justify-content: space-between;
+    height: 12px;
+}
+.items-list .item div.detail p{
+    flex-basis: 60%;
+    margin: 0;
+    background-color: #ddd;
+    /* height: 10px; */
+}
+.items-list .item div.detail span{
+    flex-basis: 28%;
+    /* height: 10px; */
+    background-color: #ddd;
+}
+/* start right div style */
+div.right .top{
+    display: flex;
+    justify-content: flex-end;
+    height: 15px;
+    column-gap: 10px;
+}
+div.right .top span{
+    flex-basis: 30px;
+    background-color: #ddd;
+}
+div.right .content{
+    background-color: #444;
+    height: 200px;
+}
+div.right .center{
+    height: 30px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #444;
+}
+div.right .item-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+div.right .item-list .item .details{
+    display: flex;
+    justify-content: space-between;
+}
+div.right .item-list .item .details .img{
+    background-color: #ddd;
+    flex-basis: 30%;
+    margin-top: 10px;
+    height: 90px;
+}
+div.right .item-list .item .details .paragraph{
+    flex-basis: 67%;
+}
+div.right .item-list .item .details .paragraph p{
+    background-color: rgb(167, 166, 166);
+    height: 10px;
+    width: 97%;
+    margin: 10px;
+}
+div.right .item-list .item>p{
+    background-color: rgb(167, 166, 166);
+    margin-top: 0px;
+    height: 10px;
+}
+div.right .item-list .line{
+    background-color: rgb(110, 109, 109);
+    height: 5px;
+}
+div.right .item-list .item .sec-p{
+    margin-top: -6px;
+}
+/* end right div style */
+footer{
+    background-color: #ddd;
+    width: 100%;
+    height: 20px;
+}
